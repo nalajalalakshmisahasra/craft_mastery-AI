@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Craft Mastery — Expo Go QR</title>
+<style>
+  body { margin: 0; min-height: 100vh; display: flex; align-items: center; justify-content: center;
+         background: #16120F; color: #FDF6E2; font-family: system-ui, sans-serif; }
+  .card { text-align: center; padding: 32px; }
+  img.qr { width: 320px; height: 320px; background: #fff; padding: 16px; border-radius: 16px; }
+  .url { margin-top: 18px; font-size: 18px; font-weight: 600; letter-spacing: .5px; }
+  .hint { margin-top: 8px; font-size: 13px; color: #A8A29E; max-width: 460px; line-height: 1.5; }
+</style>
+</head>
+<body>
+  <div class="card">
+    <p style="font-size: 13px; letter-spacing: 2px; color:#FBBF24;">CRAFT MASTERY · EXPO GO</p>
+    <h1 style="font-size: 24px; margin: 8px 0 20px;">Scan with the Expo Go app (Android)</h1>
+    <img class="qr" alt="Expo Go QR" src="https://api.qrserver.com/v1/create-qr-code/?size=320x320&amp;margin=0&amp;data=exp%3A%2F%2F192.168.29.92%3A8083" />
+    <div class="url">exp://192.168.29.92:8083</div>
+    <div class="hint">
+      Phone must be on the same Wi-Fi as this computer, and Windows Firewall must allow inbound
+      connections to Node on port 8083 (Metro) and port 3000 (API backend). If the QR image is
+      blocked, open Expo Go → Enter URL manually and type the address above.
+    </div>
+  </div>
+</body>
+</html>

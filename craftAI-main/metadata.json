@@ -1,0 +1,12 @@
+{
+  "name": "Craft Mastery",
+  "description": "Multilingual AI-Powered Artisan Marketplace connecting local craftspersons with customers through voice, automated translation, image enhancement, and guided commerce.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
+

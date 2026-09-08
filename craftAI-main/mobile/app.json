@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "Craft Mastery",
+    "slug": "craft-mastery",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#16120F",
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "Craft Mastery uses your camera so you can take photos of your handmade crafts for listings.",
+        "NSPhotoLibraryUsageDescription": "Craft Mastery uses your photo library so you can select photos of your handcrafted products.",
+        "NSMicrophoneUsageDescription": "Craft Mastery uses your microphone for voice-guided listing creation in your native language."
+      }
+    },
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "backgroundColor": "#16120F"
+      },
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.anonymous.craftmastery"
+    },
+    "plugins": [
+      "@react-native-firebase/app",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Craft Mastery needs access to your photos to upload craft images.",
+          "cameraPermission": "Craft Mastery needs camera access to capture your handmade products."
+        }
+      ],
+      "expo-image"
+    ]
+  }
+}
