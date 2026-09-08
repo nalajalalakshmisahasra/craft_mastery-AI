@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1064097331500",
+    "project_id": "root-7770a",
+    "storage_bucket": "root-7770a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1064097331500:android:990b4e55c097e5c51e9489",
+        "android_client_info": {
+          "package_name": "com.craftmastery.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWyTJ9hsekj7FDPwvFOtLmryIK-NHuvMM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1064097331500:android:ef6a9f590db9844b1e9489",
+        "android_client_info": {
+          "package_name": "com.ps90.artisanconnect"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWyTJ9hsekj7FDPwvFOtLmryIK-NHuvMM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
